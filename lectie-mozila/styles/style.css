@@ -1,0 +1,37 @@
+html {
+  font-size: 10px; /* px means "pixels": the base font size is now 10 pixels high  */
+  font-family: "Open Sans", sans-serif; /* this should be the rest of the output you got from Google fonts */
+}
+.body{
+  width: 95%;
+  border: 2px solid black;
+  margin: 7px auto;
+  padding: 4px;
+}
+img{
+	width: 30%;
+  height: 30%;
+  display: block;
+  margin: auto;
+}
+h1 {
+  font-size: 60px;
+  text-align: center;
+  margin: 2px 1px 2px 5px;
+  transform: skewX(-10deg);
+  transform: skewY(7deg);
+  text-shadow: 1px 0px 2px blue;
+}
+
+#p1, li {
+  font-size: 16px;    
+  line-height: 2;
+  letter-spacing: 1px;
+  margin: 3em 1em 6px;
+}
+.cub {
+  border: 6px dotted black;
+  padding: 2px 2px 2px 18px;
+  font-size: 16px;
+  background-color: red;
+}
